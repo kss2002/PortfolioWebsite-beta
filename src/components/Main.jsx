@@ -2,9 +2,9 @@ import React from 'react';
 
 const Main = ({ children }) => {
   return (
-    <Main id="main" role="main">
+    <main id="main" role="main">
       {children}
-    </Main>
+    </main>
   );
 };
 

@@ -9,3 +9,4 @@ const Main = ({ children }) => {
 };
 
 export default Main;
+// return main을 수정함.

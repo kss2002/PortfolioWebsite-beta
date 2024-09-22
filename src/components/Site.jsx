@@ -67,8 +67,12 @@ const Site = () => {
               </div>
               <h3 className="title">{site.title}</h3>
               <div className="btn">
-                <a href={site.code}>code</a>
-                <a href={site.view}>view</a>
+                <a href={site.code} target="_blank" rel="noreferrer">
+                  code see
+                </a>
+                <a href={site.view} target="_blank" rel="noreferrer">
+                  site see
+                </a>
               </div>
               <div className="info">
                 <span>{site.info[0]}</span>

@@ -1,28 +1,5 @@
 import React, { useState } from 'react';
-
-// 데이터화 (유지보수,재활용성)
-const headerNav = [
-  {
-    title: 'intro',
-    url: '#intro',
-  },
-  {
-    title: 'skill',
-    url: '#skill',
-  },
-  {
-    title: 'site',
-    url: '#site',
-  },
-  {
-    title: 'portfolio',
-    url: '#port',
-  },
-  {
-    title: 'contact',
-    url: '#contact',
-  },
-];
+import { headerNav } from '../constants';
 
 const Header = () => {
   const [show, setShow] = useState(false);

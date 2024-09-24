@@ -1,16 +1,5 @@
 import React from 'react';
-
-// 핵심 데이터 부품화
-const contactText = [
-  {
-    link: 'https://open.kakao.com/o/sCIpVY4f',
-    title: 'KAKAO : kim seong su',
-  },
-  {
-    link: 'mailto:know.warehouse02@gmail.com',
-    title: 'know.warehouse02@gmail.com',
-  },
-];
+import { contactText } from '../constants';
 
 const Contact = () => {
   return (

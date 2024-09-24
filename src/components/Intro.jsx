@@ -1,13 +1,7 @@
 import React from 'react';
 // 리액트에서 이미지 가져오기
 import NewJeans from '../assets/img/NewJeans__해린.jpg';
-
-// 핵심 데이터 작업 / 부품화
-const introText = {
-  title: 'port developer',
-  desc: ['talent is', 'found at the end of the', 'effort'],
-};
-// 재사용성이 증가. 위 tilte과 desc만 바꾸면 됨.
+import { introText } from '../constants';
 
 const Intro = () => {
   return (
